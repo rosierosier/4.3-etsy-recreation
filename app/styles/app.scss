@@ -1,0 +1,115 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.etsy {
+  font-family:"Graphik Web","Arial","Helvetica",sans-serif;
+  font-size: 14px;
+  color: #f45800;
+  text-decoration: none;
+}
+
+.main-search {
+  float: left;
+    display: inline-block;
+}
+
+#search-bar {
+  height: 34px;
+  border-radius: 3px;
+  border: 1px solid #CFCBC8;
+  color: #cfcbc8;
+  font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  display: inline-block;
+}
+
+.search-button {
+  height: 34px;
+  color: white;
+  font-weight: bold;
+  font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  background-color: #34A8C4;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0;
+}
+
+.top-nav {
+  float: right;
+  display: inline-block;
+}
+
+.top-nav a {
+  color: #0192B5;
+  line-height: 16px;
+  font-size: 14px;
+  font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  padding: 8px;
+}
+
+.top-nav button {
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid #0192B5;
+  line-height: 16px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #888;
+  font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.container {
+  background-color: #F5F5F1;
+}
+
+.side-nav {
+  background-color: white;
+  float: left;
+}
+
+.side-nav a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Graphik Web","Arial","Helvetica",sans-serif;
+  color: #0192B5;
+  display: block;
+  padding-bottom: 6px;
+}
+
+.accordion-text {
+  margin-left: 18px;
+}
+
+.accordion-subtext {
+  margin-left: 36px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
