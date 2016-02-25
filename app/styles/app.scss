@@ -113,3 +113,33 @@ img {
 a:hover {
   text-decoration: underline;
 }
+
+.description {
+  background-color: white;
+}
+
+.tile-image {
+  width: 30%;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+#manufacturer {
+  color: #AAA;
+  display: inline-block;
+  float: left;
+}
+
+#price {
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  color: #78c042;
+}
+
+#currency {
+  display: inline-block;
+  float: right;
+  color: #78c042;
+}

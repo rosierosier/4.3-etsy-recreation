@@ -235,13 +235,13 @@
       <section class="search-results">
         <div class="tile col-md-8">
           <div class="col md-3">
-            <a href="#"><img src="#"></a>
+            <!--<a href="#"><img src="#"></a>-->
           </div>
           <div class="col md-3">
-            <a href="#"><img src="#"></a>
+            <!--<a href="#"><img src="#"></a>-->
           </div>
           <div class="col md-3">
-            <a href="#"><img src="#"></a>
+            <!--<a href="#"><img src="#"></a>-->
           </div>
         </div>
         <!--<script id="tile-template" type="text/x-handlebars-tamplate">
@@ -268,9 +268,14 @@
 -->
 
 <script id="images-template" type="text/x-handlebars-template">
-  <div class="entry">
+  <div class="tile-image">
     <img src= {{image}} />
-    <p>{{title}}</p>
+    <div class="description">
+      <p>{{title}}</p>
+      <p id="manufacturer">{{manufacturer}}</p>
+      <p id="price">${{price}}</p>
+      <p id="currency">{{currencyCode}}</p>
+    </div>
   </div>
 </script>
 
